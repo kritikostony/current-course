@@ -1,8 +1,140 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# ============================================================
+# Universal .gitignore for all IDEs and common development tools
+# Covers: VSCode, VSCodium, JetBrains IDEs, Eclipse, Vim, Emacs,
+# GNOME Builder, Sublime, Kate, Make, CMake, Python venvs, caches, etc.
+# ============================================================
 
-# Byte-compiled / optimized / DLL files
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# VSCode / VSCodium
+# ---------------------------
+.vscode/
+.vscode-test/
+.history/
+*.code-workspace
+
+# ---------------------------
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+# ---------------------------
+.idea/
+*.iml
+out/
+cmake-build-*/
+
+# JetBrains caches
+/.gradle/
+/build/
+
+# ---------------------------
+# Eclipse
+# ---------------------------
+.project
+.classpath
+.settings/
+
+# ---------------------------
+# GNOME Builder
+# ---------------------------
+.build/
+
+# ---------------------------
+# Vim / Neovim
+# ---------------------------
+*.swp
+*.swo
+*.swm
+*~
+session.vim
+
+# ---------------------------
+# Emacs
+# ---------------------------
+*~
+\#*\#
+/.emacs.desktop
+.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ---------------------------
+# Sublime Text
+# ---------------------------
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------
+# Kate
+# ---------------------------
+*.kate-swp
+
+# ---------------------------
+# General cache directories
+# ---------------------------
+cache/
+*.cache/
 __pycache__/
-*.py[cod]
-*$py.class
+*.pid
+*.lock
+
+# ---------------------------
+# Python environments
+# ---------------------------
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+
+# ---------------------------
+# Node / JS
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ---------------------------
+# C / C++ / Build systems
+# ---------------------------
+*.o
+*.so
+*.a
+*.out
+*.obj
+*.dll
+Makefile.in
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+log/
+logs/
+
+# ---------------------------
+# Virtual machines / containers
+# ---------------------------
+*.iso
+*.qcow2
+*.vdi
+.vagrant/
+docker-compose.override.yml
+
+# ---------------------------
+# Backup files
+# ---------------------------
+*.bak
+*.backup
+*.tmp
+*.temp
+*.orig
